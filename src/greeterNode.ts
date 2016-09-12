@@ -1,9 +1,3 @@
-export default class Greeter {
-    greeting: string;
-    constructor(message: string) {
-        this.greeting = message;
-    }
-    greet() {
-        return "Hello, " + this.greeting;
-    }
-}
+const obj = {a: true, b: false};
+const { a } = obj; // This line throws a syntax error
+export const testing = () => true;
